@@ -37,9 +37,9 @@ public class Main {
     }
 
     public static void task4() {
-        List<String> strings = new ArrayList<>(List.of("один", "два","два", "три", "три", "три"));
-        HashSet<String> unic = new HashSet<>(List.of("один", "два","два", "три", "три", "три"));
-        System.out.println(strings.size()-unic.size());
+        List<String> strings = new ArrayList<>(List.of("один", "два", "два", "три", "три", "три"));
+        HashSet<String> unic = new HashSet<>(List.of("один", "два", "два", "три", "три", "три"));
+        System.out.println(strings.size() - unic.size());
     }
 
 }
